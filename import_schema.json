@@ -1,0 +1,19 @@
+[
+	{
+		"name"	: "PIBK_STATUS",
+		"src"	: "src_pibk_status",
+		"sql"	: "insert_pibk_status.sql"
+	}
+	,
+	{
+		"name"	: "IMP_HEADER_GATE_OUT",
+		"src"	: "src_imp_header_gate_out",
+		"sql"	: "insert_imp_header_gate_out.sql"
+	}
+	,
+	{
+		"name"	: "WKT_PIB_REKAM_SIAP_JALUR",
+		"src"	: "src_wkt_pib_rekam_siap_jalur",
+		"sql"	: "insert_wkt_pib_rekam_siap_jalur.sql"
+	}
+]

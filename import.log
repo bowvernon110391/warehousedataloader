@@ -1,0 +1,42 @@
+********************************************
+IMPORT STARTED @ 18/02/2019 18:46:42
+********************************************
+SETTINGS: set host to -> localhost
+SETTINGS: set username to -> root
+SETTINGS: set password to -> 
+SETTINGS: set dbname to -> data_dt
+SETTINGS: set maxFileAgeInDays to -> 45
+
+
+EXECUTING SCHEMA: PIBK_STATUS
+sql: insert_pibk_status.sql, src: src_pibk_status
+--------------------------------------------------------------
+INVALID_FILE_ALREADY_IMPORTED: C:\Users\ENPEESEE\Desktop\automation\src_pibk_status\2019\Februari\PIBK STATUS PER 06-10 FEBRUARI 2019..ctl
+SKIPPED: C:\Users\ENPEESEE\Desktop\automation\src_pibk_status\2019\Februari\PIBK STATUS PER 06-10 FEBRUARI 2019..ctl for not being valid.
+INVALID_FILE_ALREADY_IMPORTED: C:\Users\ENPEESEE\Desktop\automation\src_pibk_status\2019\Januari\PIBK STATUS PER 01-05 JANUARI 2019..ctl
+SKIPPED: C:\Users\ENPEESEE\Desktop\automation\src_pibk_status\2019\Januari\PIBK STATUS PER 01-05 JANUARI 2019..ctl for not being valid.
+
+
+EXECUTING SCHEMA: IMP_HEADER_GATE_OUT
+sql: insert_imp_header_gate_out.sql, src: src_imp_header_gate_out
+--------------------------------------------------------------
+INVALID_FILE_ALREADY_IMPORTED: C:\Users\ENPEESEE\Desktop\automation\src_imp_header_gate_out\IMPOR HEADER RINGKAS GATE OUT 1-20 JANUARI 2019.ctl
+SKIPPED: C:\Users\ENPEESEE\Desktop\automation\src_imp_header_gate_out\IMPOR HEADER RINGKAS GATE OUT 1-20 JANUARI 2019.ctl for not being valid.
+INVALID_FILE_ALREADY_IMPORTED: C:\Users\ENPEESEE\Desktop\automation\src_imp_header_gate_out\IMPOR HEADER RINGKAS GATE OUT 21-31 JANUARI 2019.ctl
+SKIPPED: C:\Users\ENPEESEE\Desktop\automation\src_imp_header_gate_out\IMPOR HEADER RINGKAS GATE OUT 21-31 JANUARI 2019.ctl for not being valid.
+
+
+EXECUTING SCHEMA: WKT_PIB_REKAM_SIAP_JALUR
+sql: insert_wkt_pib_rekam_siap_jalur.sql, src: src_wkt_pib_rekam_siap_jalur
+--------------------------------------------------------------
+INVALID_FILE_ALREADY_IMPORTED: C:\Users\ENPEESEE\Desktop\automation\src_wkt_pib_rekam_siap_jalur\WAKTU PIB + WAKTU REKAM 01-20 JANUARI 2019.ctl
+SKIPPED: C:\Users\ENPEESEE\Desktop\automation\src_wkt_pib_rekam_siap_jalur\WAKTU PIB + WAKTU REKAM 01-20 JANUARI 2019.ctl for not being valid.
+INVALID_FILE_ALREADY_IMPORTED: C:\Users\ENPEESEE\Desktop\automation\src_wkt_pib_rekam_siap_jalur\WAKTU PIB + WAKTU REKAM 21-31 JANUARI 2019.ctl
+SKIPPED: C:\Users\ENPEESEE\Desktop\automation\src_wkt_pib_rekam_siap_jalur\WAKTU PIB + WAKTU REKAM 21-31 JANUARI 2019.ctl for not being valid.
+
+
+********************************************
+IMPORT ENDED @ 18/02/2019 18:46:42
+********************************************
+
+

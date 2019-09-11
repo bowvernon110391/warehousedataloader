@@ -1,0 +1,10 @@
+{
+	"database" : {
+		"host" 		: "localhost",
+		"dbname" 	: "data_dt",
+		"username"	: "root",
+		"password"	: ""
+	},
+
+	"maxFileAgeInDays" : 45
+}
